@@ -25,7 +25,7 @@
 def main():
     while True:
         try:
-            n = int(input("Type in a number "))
+            n = int(input("Type in a number: "))
 
             if n <= 0:
                 print("Type in a number that is greater than zero.")
